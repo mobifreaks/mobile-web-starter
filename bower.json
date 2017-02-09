@@ -3,7 +3,7 @@
   "description": "A starting point for building website with Sass, Autoprefixer, sourcemaps, linting, bower and browserify",
   "main": "index.html",
   "authors": [
-    "Mohammed Munawar Ahmed"
+    "Mohammed Munawar Ahmed <hi@munwr.com>"
   ],
   "license": "GPL-3.0",
   "keywords": [
