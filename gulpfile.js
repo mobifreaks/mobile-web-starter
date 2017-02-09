@@ -14,7 +14,7 @@ gulp.task('sass', function() {
     .pipe(sourcemaps.init())
     .pipe(sass().on('error', sass.logError))
     .pipe(autoprefixer())
-    .pipe(sourcemaps.write())
+    .pipe(sourcemaps.write('/', {addComment: true}))
     .pipe(gulp.dest('app/'))
     // Reloading the stream
     .pipe(browserSync.reload({
@@ -33,6 +33,6 @@ gulp.task('browserSync', function() {
 
 // Watch files
 gulp.task('watch', ['browserSync','sass'], function() {
-  gulp.watch('app/scss/**/*.scss', ['sass']);
+  gulp.watch('app/scss/**/*.{scss,sass}', ['sass']);
   gulp.watch('app/index.html', browserSync.reload);
 });
