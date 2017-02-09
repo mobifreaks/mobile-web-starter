@@ -1,6 +1,4 @@
-@import 'partial';
-
-body {
-  background: yellow;
-  color: black;
-}
+@import "app/bower_components/normalize-css/normalize";
+@import "app/bower_components/susy/sass/susy";
+@import "app/bower_components/breakpoint-sass/stylesheets/breakpoint";
+@import "init";
