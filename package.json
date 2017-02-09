@@ -1,0 +1,22 @@
+{
+  "name": "mobile-web-starter",
+  "version": "0.0.0",
+  "description": "A starting point for building website with Sass, Autoprefixer, sourcemaps, linting, bower and browserify",
+  "main": "index.html",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mobifreaks/mobile-web-starter.git"
+  },
+  "keywords": [
+    "workflow"
+  ],
+  "author": "Mohammed Munawar Ahmed",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/mobifreaks/mobile-web-starter/issues"
+  },
+  "homepage": "https://github.com/mobifreaks/mobile-web-starter#readme"
+}
